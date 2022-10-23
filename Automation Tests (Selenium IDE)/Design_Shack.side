@@ -1,0 +1,2656 @@
+{
+  "id": "d799399b-b093-420e-8044-8e2072ba083b",
+  "version": "2.0",
+  "name": "Design_Shack",
+  "url": "https://designshack.net",
+  "tests": [{
+    "id": "eb03c240-f51e-49cd-b92b-8a0466a18a2e",
+    "name": "Articles_Applications_DesignShack",
+    "commands": [{
+      "id": "ed2df0cd-8ac1-4f4e-a6ee-11921fc21b89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29ffa809-860d-4c68-bb2a-34067d59f4f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c25a43-c64e-4169-a578-e0cddf583cb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=.current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ea5f03-aa7c-42fe-9fc3-cfc279dd11ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adobe Lightroom",
+      "targets": [
+        ["linkText=Adobe Lightroom", "linkText"],
+        ["css=.category-archive-list > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Adobe Lightroom')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/lightroom-presets/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f98a81f-dcea-4cee-9cf5-f1e71ddf6d33",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "824199ec-fa02-4954-9834-60253915bd8e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Lightroom Presets"
+    }, {
+      "id": "a8afcfd1-8c88-43e8-be0a-018302643122",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d62215e6-a8d0-427e-a85a-748acb812e80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adobe Premiere Pro",
+      "targets": [
+        ["linkText=Adobe Premiere Pro", "linkText"],
+        ["css=.category-archive-list > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Adobe Premiere Pro')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/premiere-pro-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "162fb317-33b7-4651-952e-a9a955785a7a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e2595dc8-f212-44df-9b4c-e9f301e6dae0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Premiere Pro Templates"
+    }, {
+      "id": "015d167f-d3a4-4cdd-97d2-91d3ff3ccf28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a92078bf-0b8c-4584-93ee-4deddb0f7efd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adobe XD",
+      "targets": [
+        ["linkText=Adobe XD", "linkText"],
+        ["css=.category-archive-list > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Adobe XD')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/adobe-xd-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82508b07-8dbd-4f82-ad90-dad4764506e6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "b0cd0491-0243-408d-b8fd-0866edbb109a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Adobe XD Templates"
+    }, {
+      "id": "c1fa9656-14ac-4abe-b83f-6208aabe610b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb3cc28-bd7b-42e9-b319-d7c3721fc5d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Affinity Designer",
+      "targets": [
+        ["linkText=Affinity Designer", "linkText"],
+        ["css=.category-archive-list > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Affinity Designer')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/affinity-designer-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81ee4b8e-fb97-4268-9485-d900ff43cb1a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "a4d5a419-9426-4a7f-a550-7ede1e7ce5e4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Affinity Designer Templates"
+    }, {
+      "id": "1661429d-0547-4bc3-91e0-4357b67c7974",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74127838-17cb-4ee6-92c7-6421e32c3925",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Affinity Publisher",
+      "targets": [
+        ["linkText=Affinity Publisher", "linkText"],
+        ["css=.category-archive-list > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Affinity Publisher')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/affinity-publisher-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3340b2-115a-4e3e-9730-966eb0cc7d61",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "40322aea-c81c-4157-bf6d-fd22bc86c657",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Affinity Publisher Templates"
+    }, {
+      "id": "9ac6bbc1-3ab4-4b76-a5dc-4e9370e12344",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9379979d-08dd-49b8-8e29-3d5e6c64208d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=After Effects",
+      "targets": [
+        ["linkText=After Effects", "linkText"],
+        ["css=.category-archive-list > li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'After Effects')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/after-effects-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b9aa52-7915-4935-9105-7c6a1b4b9ee0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "9946e35a-e2c6-44cd-b893-090d7bea3c8e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "After Effects Templates"
+    }, {
+      "id": "5720ca1f-b581-425c-b126-16c7cbc6503c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "782da911-cf92-42ea-a214-db4589cb2b20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bootstrap",
+      "targets": [
+        ["linkText=Bootstrap", "linkText"],
+        ["css=.category-archive-list > li:nth-child(8) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bootstrap')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/bootstrap/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ca0e9c-b7b9-4595-94e8-c2a0cce400ba",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f3e8008b-6e3b-4b33-b7cd-ac29d250eeef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Bootstrap"
+    }, {
+      "id": "65180c7d-0f89-4163-a168-bbcb38914e5d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7fc2d8b-d685-49ea-a3fa-ffc1df3c01b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Figma",
+      "targets": [
+        ["linkText=Figma", "linkText"],
+        ["css=.category-archive-list > li:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Figma')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/figma/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68cc3c7-3a0e-494c-af7d-313a138f7a41",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "4839874f-8468-47cc-942f-45cb3f5cbcc1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Figma Templates"
+    }, {
+      "id": "e593353e-2fad-4407-9d83-61718aafb571",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f04bf2cd-c795-4530-886f-e7309faea9a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Final Cut Pro",
+      "targets": [
+        ["linkText=Final Cut Pro", "linkText"],
+        ["css=.category-archive-list > li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Final Cut Pro')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/final-cut-pro-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d54371d-1d25-4126-bc7a-6fc62316412b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5718171d-6ebb-4fd4-a016-14a17ffae357",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Final Cut Pro Templates"
+    }, {
+      "id": "3e81c75f-b305-4ec3-9ed4-5bf8e07bc94d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc05916a-914c-4e79-8fcb-21c3ade88e43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Google Fonts",
+      "targets": [
+        ["linkText=Google Fonts", "linkText"],
+        ["css=.category-archive-list > li:nth-child(11) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Google Fonts')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/google-fonts/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be15e37-1a51-4d95-ab47-c1bddf9f0e70",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "634bac42-3a5b-42fb-bbb8-992f7d781ab6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Google Fonts"
+    }, {
+      "id": "58ab5dc0-4b1c-4c98-a65e-fe54b4894165",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ade4f91-6ece-420f-9be5-443d2c1961f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Google Slides",
+      "targets": [
+        ["linkText=Google Slides", "linkText"],
+        ["css=.category-archive-list > li:nth-child(12) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Google Slides')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/google-slides-themes/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[12]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd733e0-cfd5-4299-bac3-9acb1a4fd5b4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "4aa66bd4-cf90-4d5e-94ac-f30e3ff01fbd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Google Slides Themes"
+    }, {
+      "id": "b33b677d-a396-433b-977a-fa7dfbb266c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65fe4242-dec3-45c4-9945-4959ed1fef06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Instagram",
+      "targets": [
+        ["linkText=Instagram", "linkText"],
+        ["css=.category-archive-list > li:nth-child(13) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Instagram')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/instagram-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63955ff3-a6f6-40ea-b2fe-6af6e707f6f2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "7f438a22-fbd5-4bc6-a484-eb8eb7e24eac",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Instagram Templates"
+    }, {
+      "id": "5f27d56b-abed-43e1-8a99-69db9e0652de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78f91a5-1747-4ad6-abd7-6121e20e806d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keynote",
+      "targets": [
+        ["linkText=Keynote", "linkText"],
+        ["css=.category-archive-list > li:nth-child(14) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Keynote')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/keynote-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[14]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7771951d-c17e-4f9b-955f-acb3529a7b0b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "aa073238-835b-4a15-a4b3-019e7a2d2135",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Keynote Templates"
+    }, {
+      "id": "5f1aeeda-099d-494b-8473-fa59dd7b4f76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc1f034-b4aa-45dd-85f1-73514cefe7a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Photoshop Actions",
+      "targets": [
+        ["linkText=Photoshop Actions", "linkText"],
+        ["css=.category-archive-list > li:nth-child(15) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Photoshop Actions')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/photoshop-actions/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[15]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee98969-33cf-4461-a9f8-9e17786748da",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "430bb108-b74f-4e7a-b2c9-5212812c0719",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Photoshop Actions"
+    }, {
+      "id": "9c12514b-ba57-4f97-8eab-d4af38a42bf6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e349e65f-3ca7-438b-992a-dd63ec1a1226",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Photoshop Brushes",
+      "targets": [
+        ["linkText=Photoshop Brushes", "linkText"],
+        ["css=.category-archive-list > li:nth-child(16) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Photoshop Brushes')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/photoshop-brushes/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[16]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98cf6bd-b108-404b-b3da-49aad3669d73",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1f7c0d3b-c425-4df3-b722-d6d1e65c395d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Photoshop Brushes"
+    }, {
+      "id": "9e40715e-4e89-4b18-9360-10f3c31afc03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9fe7545-5d84-4260-b6fd-2e999437b0fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PowerPoint",
+      "targets": [
+        ["linkText=PowerPoint", "linkText"],
+        ["css=.category-archive-list > li:nth-child(17) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'PowerPoint')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/powerpoint-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[17]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43c92ea4-e9c3-47eb-ae3e-2527a9385047",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "4e223c4c-a4b2-4570-90d1-50ea087b9e89",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "PowerPoint Templates"
+    }, {
+      "id": "f3add5d3-8acb-4c70-a737-57e3bb6f9ce2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e2ef67d-74d9-4c6a-b5e2-a6b8cbda1a03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Procreate",
+      "targets": [
+        ["linkText=Procreate", "linkText"],
+        ["css=.category-archive-list > li:nth-child(18) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Procreate')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/procreate/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[18]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c5fa173-c170-46ee-8e32-2389a24a52d9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1ebc0b02-7b65-4625-92c2-3d01e600dcf0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Procreate Brushes"
+    }, {
+      "id": "a1895f27-8502-4111-aabc-1529f0d9ad28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "316b7313-e793-49e5-997a-9d4f9c5ffb21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sketch",
+      "targets": [
+        ["linkText=Sketch", "linkText"],
+        ["css=.category-archive-list > li:nth-child(19) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sketch')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/sketch-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[19]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1639a175-0872-4cb3-b526-a35aa3e4c05d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "a7c7b251-5e00-42da-b98f-bb3ea8fcb3d2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Sketch Templates"
+    }, {
+      "id": "7d2ad255-d523-4cba-9925-01697f91d143",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26d69da6-c7c5-4880-a8ae-a9c516f3c0b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tumblr",
+      "targets": [
+        ["linkText=Tumblr", "linkText"],
+        ["css=.category-archive-list > li:nth-child(20) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tumblr')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/tumblr-themes/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[20]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4cc736-9d92-474d-bd63-475200e66374",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "98a67683-d142-42b4-8eae-057152a4b0ed",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Tumblr Themes"
+    }, {
+      "id": "e9b767a6-59d9-438e-ade0-38993f366e3b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "85b29492-4896-411b-be6c-0996e25e65f6",
+    "name": "Atricles_DesighProjects_DesignShack",
+    "commands": [{
+      "id": "2864bbca-2e75-4eda-93d3-13a9a70d9f94",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80f56b50-7a56-44c1-b33c-aaf1fb38aa39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08d784f0-44e6-48c2-b1b4-de3975d51896",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=.current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78979bbe-f247-4c78-91dc-9d1aa344b8f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=App Templates",
+      "targets": [
+        ["linkText=App Templates", "linkText"],
+        ["css=.category-archive-list > li:nth-child(22) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'App Templates')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/app-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[22]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c53c66c-b815-4425-b8c7-6aad603cc62a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "7cbe0545-8f7e-44b6-b074-c9e216da2da0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "App Templates"
+    }, {
+      "id": "dbc3bfa3-84c7-436c-9879-caac2194f1ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1a94c7f-2657-4728-a6b6-e16f6ca56f0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Background Textures",
+      "targets": [
+        ["linkText=Background Textures", "linkText"],
+        ["css=.category-archive-list > li:nth-child(23) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Background Textures')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/background-textures/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[23]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "451b802a-acfe-4fa7-8946-ae8f2b1e5429",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "34765035-383d-4d42-a164-dad9eae609b5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Background Textures"
+    }, {
+      "id": "16664712-8937-454b-86a3-14104a7ce727",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a7ee6f-857a-488b-8ea1-e701a1f8a6d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brochures",
+      "targets": [
+        ["linkText=Brochures", "linkText"],
+        ["css=li:nth-child(24) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Brochures')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/brochure-templates/')])[2]", "xpath:href"],
+        ["xpath=//li[24]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a46cf63-17a5-4264-a9c2-6d448552d5d7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ffef0353-257b-4897-9d4f-efbf2132e948",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Brochure Templates"
+    }, {
+      "id": "fed08dd0-6a8c-46f2-8526-fb5dfaba3565",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ddf599-5d09-43cd-990d-34c5cc20611e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business Cards",
+      "targets": [
+        ["linkText=Business Cards", "linkText"],
+        ["css=.category-archive-list > li:nth-child(25) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Business Cards')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/business-card-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[25]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0a28fd-2d7d-49af-b4aa-312a5a1e9684",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8fdf52c1-ff23-4d20-965f-b41032b9e103",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Business Card Templates"
+    }, {
+      "id": "25a827c3-fd7d-4eb2-97ad-a0bf957d31aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "697a9dd9-f05d-4801-a663-3dfdd4e2b07e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Christmas",
+      "targets": [
+        ["linkText=Christmas", "linkText"],
+        ["css=.category-archive-list > li:nth-child(26) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Christmas')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/christmas-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[26]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "722eea13-bc34-4d21-999e-5f39d8edace4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8ba768db-e476-4beb-96ad-052111420950",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Christmas Templates"
+    }, {
+      "id": "d39af265-a843-472e-b649-46e9214238b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17c1b404-0c9a-4448-a182-6e548f08a9a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CV & Resumes",
+      "targets": [
+        ["linkText=CV & Resumes", "linkText"],
+        ["css=.category-archive-list > li:nth-child(27) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CV & Resumes')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/cv-resume/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[27]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfac52ea-d2cb-4e5b-b200-fe049e65db21",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e708a741-f9eb-4603-ab7f-175acb0bbc06",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "CV & Resume Templates"
+    }, {
+      "id": "ba83138f-64a7-47c7-8106-4ab2ad5b64f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf0179f-a614-4857-ab11-c2c85c393061",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Email Templates",
+      "targets": [
+        ["linkText=Email Templates", "linkText"],
+        ["css=.category-archive-list > li:nth-child(28) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Email Templates')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/email-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[28]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4952c6a4-1e9a-4873-a4f1-708c8a19b149",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "17bd6184-c1ef-4774-b439-b9268b50722f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Email Templates"
+    }, {
+      "id": "b7fd3e44-73fc-4604-a329-46f0be050880",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6825d5bb-4860-4e0e-8854-e6309dde6f4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flyers",
+      "targets": [
+        ["linkText=Flyers", "linkText"],
+        ["css=.category-archive-list > li:nth-child(29) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Flyers')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/flyer-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[29]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6bb6be-613b-4d92-bcdc-198d340970a4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "15be9965-41e7-49d8-9816-c11c35bb9d2b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Flyer Templates"
+    }, {
+      "id": "fd6d448f-aed4-453d-8137-01a4d2d8d0d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ec7cab-9263-4789-acb7-eae6d382a328",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fonts",
+      "targets": [
+        ["linkText=Fonts", "linkText"],
+        ["css=.category-archive-list > li:nth-child(30) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Fonts')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/font-collections/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[30]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5c92f0-49d8-4699-87ea-20d67aa11609",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "aa998661-7fda-4322-8a19-fe61ce30d1ca",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Font Collections"
+    }, {
+      "id": "cf89ca67-b077-4a62-bb17-19374284ff11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a28f977-a852-4a16-a9f1-9cd7465bd604",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iPhone Mockups",
+      "targets": [
+        ["linkText=iPhone Mockups", "linkText"],
+        ["css=.category-archive-list > li:nth-child(31) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'iPhone Mockups')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/iphone-mockups/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[31]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e21704c-c31c-4511-9da6-7edf7a5df6d3",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "196189d2-b91e-4007-be14-ad791faa534b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "iPhone Mockups"
+    }, {
+      "id": "bbd80ac0-d370-42ec-b034-388a6ced8528",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffbcf4dc-7466-48fc-a569-12e3ed0b341b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logo Templates",
+      "targets": [
+        ["linkText=Logo Templates", "linkText"],
+        ["css=.category-archive-list > li:nth-child(32) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logo Templates')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/logo-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[32]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77280662-93a2-481c-bc96-277c26d9c439",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "b0d922e5-d320-4523-bacb-2b3f6b8c2a52",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Logo Templates"
+    }, {
+      "id": "33e733aa-8bdf-4c72-bc5c-113d7d573ab9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af157355-1d2c-4c58-868c-e0da8ca5e623",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mockup Templates",
+      "targets": [
+        ["linkText=Mockup Templates", "linkText"],
+        ["css=.category-archive-list > li:nth-child(33) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mockup Templates')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/mockup-templates/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[33]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81498a65-440b-4149-848c-3446f84b6ac4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "c46d2615-da22-41c7-85bd-7b79d9b55565",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Mockup Templates"
+    }, {
+      "id": "893e0044-a163-4b7b-8f54-2f1718974c5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b202f1f9-8a7d-4f5d-bc55-63182f49b83b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Posters",
+      "targets": [
+        ["linkText=Posters", "linkText"],
+        ["css=.category-archive-list > li:nth-child(34) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Posters')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/poster-design/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[34]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0dc09eb-4d35-46e5-b6e3-5be7b28a1694",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ddb27f60-8c00-44f4-a406-04873df43da8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Poster Design"
+    }, {
+      "id": "a0308b86-ec88-483f-a255-ee5a10e57e8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c38543-3f52-4d01-8465-e49883053ec8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Weddings",
+      "targets": [
+        ["linkText=Weddings", "linkText"],
+        ["css=.category-archive-list > li:nth-child(35) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Weddings')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/wedding-design/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[35]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51dc0292-f7c6-46cd-a3f2-91a7362b2ee5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "0136a3f8-1117-46dd-b1ed-9224c5fe04b8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Wedding Design"
+    }, {
+      "id": "d812f056-88dd-422a-802f-6a5c3dd01911",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f10c45-66cf-442c-9845-2efdf4aa53ec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d5d93370-ff47-4c8f-bbc5-cfcbcef9862f",
+    "name": "Articles_Categories_DesignShack",
+    "commands": [{
+      "id": "5936e412-145f-47a7-a85c-fe0d1ed54c5a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1790c22-8e99-4432-aa6a-83f7995b72a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x805",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80e02a7b-ee5a-45b3-b3b6-35c31f8cb08e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=.current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "242312eb-68f4-4886-8e2a-1e2fe9575d87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business",
+      "targets": [
+        ["linkText=Business", "linkText"],
+        ["css=.cat-item:nth-child(37) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Business')])[5]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/business-articles/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[37]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71545b7-3766-4fe8-8c28-170665bd4946",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "365dbd0a-3334-4606-86ca-d4957a380ff9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Business"
+    }, {
+      "id": "255ff85e-ba7d-4627-a6a5-8c045912e1d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4b4d731-8cdb-4698-94e8-1ca1d355b149",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSS",
+      "targets": [
+        ["linkText=CSS", "linkText"],
+        ["css=.cat-item:nth-child(38) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CSS')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/css/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[38]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6f2770-4981-4ca8-aeb3-8b00e0fd3fb7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e65a641d-6f44-4ac3-9d53-5f44b02970bf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "CSS"
+    }, {
+      "id": "6801f444-893c-41eb-96c1-1f573194f243",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1bbd21d-93c1-4c52-b9fe-b101b2885cad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Graphics",
+      "targets": [
+        ["linkText=Graphics", "linkText"],
+        ["css=.cat-item:nth-child(39) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Graphics')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/graphics/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[39]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "046012bd-0775-4f8e-a3fb-20539d024aa5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "69ca687b-ed17-4bdc-bfa5-f9edfd5387b9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Graphics"
+    }, {
+      "id": "d92f177f-080e-474d-89d6-fc59af32f267",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7783f49-700b-4bf3-a906-e668d02fb2c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inspiration",
+      "targets": [
+        ["linkText=Inspiration", "linkText"],
+        ["css=.cat-item:nth-child(40) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Inspiration')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/inspiration/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[40]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af08c1b2-d11d-4787-9387-bc5da70e8a9a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "367ba660-5168-4155-9668-6ac689fee581",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Inspiration"
+    }, {
+      "id": "b8f09958-dfef-4580-8670-dd2277801f5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0ae791-3dae-4ccc-b5a5-abf609482cec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Layouts",
+      "targets": [
+        ["linkText=Layouts", "linkText"],
+        ["css=.cat-item:nth-child(41) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Layouts')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/layouts/')])[2]", "xpath:href"],
+        ["xpath=//li[41]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "735b796a-dc4c-48f2-a440-27ebcb9e1796",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "492729c1-072b-4b6f-a18f-910862cd2b43",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Layouts"
+    }, {
+      "id": "6619ee3c-5db2-4fe0-a909-6e26e4f34620",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c718e3d7-1c74-4fc5-9029-322bf02224ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile",
+      "targets": [
+        ["linkText=Mobile", "linkText"],
+        ["css=.cat-item-904:nth-child(42) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mobile')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/mobile/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[42]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89eb394f-91c8-46b8-8c76-f91b548e407c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "f760243a-e950-46af-842c-d17f3ab259ca",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Mobile"
+    }, {
+      "id": "4855ae2f-9bc2-44ca-804d-94423e85394e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60eefbc6-c5c0-49bf-a644-17c3cecf0704",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Navigation",
+      "targets": [
+        ["linkText=Navigation", "linkText"],
+        ["css=.cat-item-909:nth-child(43) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Navigation')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/navigation/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[43]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bf0725a-9187-4dd1-98ef-2485bcc53433",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "57b6853f-56a6-47aa-b9ee-015a7b85d344",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Navigation"
+    }, {
+      "id": "31a2b11d-0353-4325-a87f-d50c42c2db27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5be981-b96c-4075-96b4-8c53c5661238",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Software",
+      "targets": [
+        ["linkText=Software", "linkText"],
+        ["css=.cat-item-908:nth-child(44) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Software')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/software/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[44]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9786ec-60c4-4413-8215-a0c4ae0d4941",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "7e4f413d-576f-4732-be4a-20125088179e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Software"
+    }, {
+      "id": "4973e1dc-dc2b-4988-8d72-4a917a807eb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "147c8909-cfd1-491e-83c2-8c933d78ac24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trends",
+      "targets": [
+        ["linkText=Trends", "linkText"],
+        ["css=.cat-item-1059:nth-child(45) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trends')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/trends/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[45]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "762d8136-e768-41cb-baa8-d0e28facafc2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "2a83f2c1-74bd-406d-9bc1-10893c229472",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Trends"
+    }, {
+      "id": "b970d866-c5e9-4c6f-9bbe-20a30a92b8ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cc66182-6a8f-4c17-a114-1c1e5e22d66a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Typography",
+      "targets": [
+        ["linkText=Typography", "linkText"],
+        ["css=.cat-item-905:nth-child(46) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Typography')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/typography/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[46]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb776f4-6f9d-425d-b4ab-081364e7aa20",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "0d6e3c00-fc43-47ee-a112-bfc18c065abc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Typography"
+    }, {
+      "id": "401bde0a-6b53-460f-b751-307116850168",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd32517-0262-48cf-84d0-66fe83c817cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=UX Design",
+      "targets": [
+        ["linkText=UX Design", "linkText"],
+        ["css=.cat-item-903:nth-child(47) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'UX Design')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/category/articles/ux-design/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[47]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6c043b-a057-483d-84df-7bd90fb7d956",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e6b3200d-922a-4c91-9032-481d7df54afa",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "UX Design"
+    }, {
+      "id": "16aa16b1-a59b-4694-ad5d-2463171c7b63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6510b9-50d6-4aa2-8724-da35831379fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More →",
+      "targets": [
+        ["linkText=More →", "linkText"],
+        ["css=li:nth-child(48) > .more", "css:finder"],
+        ["xpath=(//a[contains(text(),'More →')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/categories/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[48]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d7ec01e-2238-465e-bf2c-b30afe59bf64",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8702e031-6a30-4f08-8bc7-cb994982070b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Categories"
+    }, {
+      "id": "4c46630b-12a8-4976-8a43-5bb5e1b844f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Articles",
+      "targets": [
+        ["linkText=Articles", "linkText"],
+        ["css=li:nth-child(1) > .current", "css:finder"],
+        ["xpath=//a[contains(text(),'Articles')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/articles/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Articles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b507f71-d875-4f48-8f77-8e907f37cef1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "de9eceec-9da6-47ec-a69e-3bf8ecd24383",
+    "name": "Gallery_DesignShack",
+    "commands": [{
+      "id": "34e9144f-6339-4107-9183-795aa0e9d12b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f518b97-990d-4c80-8503-d698ff60d14d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x805",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ae2f7b2-9e20-4d80-b07f-cbd78e60cbc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gallery",
+      "targets": [
+        ["linkText=Gallery", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/gallery/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gallery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce77db7e-5453-41e2-8401-0870a8172700",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lightroom Presets')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "bf44fd81-845d-4d88-9e1d-784a797f2bfc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Design Gallery"
+    }, {
+      "id": "1d6098cd-3f09-4fcd-915a-16ba2a5aa286",
+      "comment": "",
+      "command": "click",
+      "target": "id=archive-category-list",
+      "targets": [
+        ["id=archive-category-list", "id"],
+        ["name=select", "name"],
+        ["css=#archive-category-list", "css:finder"],
+        ["xpath=//select[@id='archive-category-list']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "334fc666-0fe0-466f-bf68-9f4457e03f83",
+      "comment": "",
+      "command": "select",
+      "target": "id=archive-category-list",
+      "targets": [],
+      "value": "label=Web Design"
+    }, {
+      "id": "7b56b090-7d48-4c14-9bbb-070da1354221",
+      "comment": "",
+      "command": "click",
+      "target": "id=archive-category-list",
+      "targets": [
+        ["id=archive-category-list", "id"],
+        ["name=select", "name"],
+        ["css=#archive-category-list", "css:finder"],
+        ["xpath=//select[@id='archive-category-list']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd25764-470d-4c7c-9ce5-f9d57813f5ea",
+      "comment": "",
+      "command": "select",
+      "target": "id=archive-category-list",
+      "targets": [],
+      "value": "label=Logo"
+    }, {
+      "id": "3f85b447-85be-46ac-ad27-109ad2ce5222",
+      "comment": "",
+      "command": "click",
+      "target": "id=archive-category-list",
+      "targets": [
+        ["id=archive-category-list", "id"],
+        ["name=select", "name"],
+        ["css=#archive-category-list", "css:finder"],
+        ["xpath=//select[@id='archive-category-list']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77536c54-6a13-402f-9a49-f57c701ba940",
+      "comment": "",
+      "command": "select",
+      "target": "id=archive-category-list",
+      "targets": [],
+      "value": "label=Interface"
+    }, {
+      "id": "da5e7e23-4cbe-4ab9-8735-e670f5e98eb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=archive-category-list",
+      "targets": [
+        ["id=archive-category-list", "id"],
+        ["name=select", "name"],
+        ["css=#archive-category-list", "css:finder"],
+        ["xpath=//select[@id='archive-category-list']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43bec236-4d28-4b96-b287-7c672e3aabb1",
+      "comment": "",
+      "command": "select",
+      "target": "id=archive-category-list",
+      "targets": [],
+      "value": "label=Print"
+    }, {
+      "id": "15046831-048a-4035-91f4-0798c9305927",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6529405a-f442-49ac-b19e-fdcbcd00714d",
+    "name": "About_DesignShack",
+    "commands": [{
+      "id": "8ca499e9-abf8-47b7-8ff6-2e583a918581",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cd688b6-abfc-472c-80df-f8aa57b7f4ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x805",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17af77e8-608e-48a0-964f-3f8ebec04756",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://designshack.net/about/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27dfd026-b160-42e8-8e13-d0909634653e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Membership",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "02251581-8b56-4c68-b0c6-ee9913155152",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "d8563e8d-8158-4c34-a925-23b2ec46ef7f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Design Shack Membership"
+    }, {
+      "id": "2c078508-2d9f-4719-a083-7a7ba6ec1bbd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advertising",
+      "targets": [
+        ["linkText=Advertising", "linkText"],
+        ["css=#responsive-nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Advertising')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='responsive-nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/advertising/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f104d9-d27c-44a3-964c-7c662a6d533a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Advertising & Sponsorship')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ab2ef3de-d8f1-4994-95af-83b1d68f5594",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Advertising & Sponsorship')]", "xpath:innerText"]
+      ],
+      "value": "Advertising & Sponsorship"
+    }, {
+      "id": "5dbdc809-cf32-4bd0-beb3-2ee9a433b6c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Write for Us",
+      "targets": [
+        ["linkText=Write for Us", "linkText"],
+        ["css=#responsive-nav li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Write for Us')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='responsive-nav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/write-for-us/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4fd272-ef46-43b8-9a56-984aad9efc0b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "a377a4ef-d7f9-4c9f-9b85-55567c45fea9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Write for Design Shack"
+    }, {
+      "id": "0fbc0459-89d7-4a13-8644-96eff04302bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='responsive-nav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://designshack.net/contact/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b963fa2-7a3e-4705-9490-10c157820d51",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1fa3e876-5517-4c8b-8c96-bed7119769e6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Design Shack Membership')]", "xpath:innerText"]
+      ],
+      "value": "Contact"
+    }, {
+      "id": "5dbf29b4-ec28-4f61-94da-1dfcfb13f45a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43dd5de1-994e-42a4-b5b8-e16b0533c426",
+    "name": "Menu_Articles",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb03c240-f51e-49cd-b92b-8a0466a18a2e", "d5d93370-ff47-4c8f-bbc5-cfcbcef9862f", "85b29492-4896-411b-be6c-0996e25e65f6"]
+  }, {
+    "id": "cb661ad1-83fc-4454-8bcf-8c86930897d9",
+    "name": "Menu_Gallery",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["de9eceec-9da6-47ec-a69e-3bf8ecd24383"]
+  }, {
+    "id": "4acabffa-9982-4f82-a399-43e819a77259",
+    "name": "Menu_About",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6529405a-f442-49ac-b19e-fdcbcd00714d"]
+  }],
+  "urls": ["https://designshack.net/"],
+  "plugins": []
+}
